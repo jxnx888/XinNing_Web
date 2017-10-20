@@ -1,0 +1,279 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Set widths on the form inputs since otherwise they're 100% wide */
+
+input,
+select,
+textarea {
+    max-width: 100%;
+}
+/* Responsive: Portrait tablets and up */
+
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
+
+/*All*/
+
+a {
+    color: #337ab7;
+}
+.go-top {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+.go-top:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+ 
+/*Nav */
+.Logo {
+    height: auto;
+    max-width: 28%;
+    margin-top: -2%;
+}
+
+/*Footer*/
+.Logo_footer {
+    height: auto;
+    max-width: 35%;
+    margin-left: 40%;
+    display: inline;
+}
+
+ul.nav_footer {
+    float: left;
+    margin: 0;
+    padding-left: 50%;
+    font-size: 20px;
+    width: 50%;
+}
+
+.nav_footer li {
+    color: #355c7d;
+}
+
+    .nav_footer li a {
+        margin-left: 10px;
+        list-style-type: none;
+        text-decoration: none;
+        color: #355c7d;
+    }
+
+.nav_footer_right {
+    min-width: 160px;
+    text-align: center;
+}
+
+.nav_footer_center i {
+    font-size: 20px;
+}
+
+.nav_footer_center li {
+    margin-left: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+    .nav_footer_center li a {
+        list-style-type: none;
+        text-decoration: none;
+        color: #355c7d;
+    }
+
+i.fa.fa-print.btn.btn-danger {
+    min-width: 160px;
+    margin: 10px 0;
+}
+
+.footer_info {
+    background-color: rgb(53, 92, 125);
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    padding: 1% 0;
+}
+
+
+/*Home page*/
+
+header {
+    background-image: url('../Images/banner.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 595px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+
+/*
+.home_banner {
+    margin: auto;
+    position: absolute;
+    right: 35%;
+    top: 30%;
+    width: 30%;
+    padding: 20px;
+    clear: both;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 45px;
+    border-radius: 8px;
+    margin-bottom: 0px !important;
+    margin-top: 20px;
+}
+*/
+h1.animation.animated-item-1 {
+    font-size: 70px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bolder;
+    text-shadow: 6px 9px 2px #3b3b3b;
+    color: #fff;
+}
+
+p.animation.animated-item-2 {
+    font-size: 30px;
+    color: #000000;
+}
+
+.break_line {
+    border-bottom: solid 1px #d7d8d8;
+}
+
+
+/*Skills Page*/
+.box {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 115%;
+}
+.box h2 {
+    font-weight:bold;
+}
+.box-inner {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    min-height: 86px;
+    opacity:1;
+}
+.box-icon {
+    background-color: #e74c3c;
+    width: 100px;
+    height: 100px;
+    margin-left: 16%;
+    margin-top: 78%;
+    padding-top: 10%;
+    padding-left: 1%;
+    color: white;
+    border-radius: 50%;
+    font-size: 13px;
+}
+.skills_banner {
+    background-image: url('../Images/Skill_banner.gif');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 555px;
+    margin-top: 43px;
+}
+
+/*Project Page*/
+.container.body-content .jumbotron iframe {
+    width: 100%;
+    height: 700px;
+    border: solid 1px #000;
+}
+
+/*Contact page*/
+.line_break {
+    float: left;
+    width: 100%;
+    display: block;
+    clear: both;
+    margin: 40px 0px;
+}
+
+.map {
+    text-align: center;
+    margin-top: 43px;
+}
+
+.col-md-6.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact_center {
+    text-align: center;
+}
+
+.contact_center1 {
+    text-align: center;
+    height: 50px;
+}
+.font_small {
+    font-size:20px;
+}
+
+.contact_top1 {
+    text-align: center;
+    color: #808080;
+    margin-top: -15px;
+}
+
+.contact_right {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.jumbotron {
+    font-size: 13px;
+    margin: 0 10%;
+}
+
+input#mainPlaceholder_btnSubmit {
+    background-color: #d95b43;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: inherit;
+}
+
+label.control-label.col-md-12 {
+    text-align: left;
+}
