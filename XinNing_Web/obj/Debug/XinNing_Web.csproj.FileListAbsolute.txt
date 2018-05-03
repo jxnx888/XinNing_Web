@@ -51,7 +51,6 @@ E:\Projects\ASP.NET\XinNing_Web\XinNing_Web\bin\XinNing_Web.dll.config
 E:\Projects\ASP.NET\XinNing_Web\XinNing_Web\bin\XinNing_Web.dll
 E:\Projects\ASP.NET\XinNing_Web\XinNing_Web\bin\XinNing_Web.pdb
 E:\Projects\ASP.NET\XinNing_Web\XinNing_Web\bin\Antlr3.Runtime.dll
-E:\Projects\ASP.NET\XinNing_Web\XinNing_Web\bin\AspNet.ScriptManager.bootstrap.dll
 E:\Projects\ASP.NET\XinNing_Web\XinNing_Web\bin\AspNet.ScriptManager.jQuery.dll
 E:\Projects\ASP.NET\XinNing_Web\XinNing_Web\bin\Microsoft.AI.Agent.Intercept.dll
 E:\Projects\ASP.NET\XinNing_Web\XinNing_Web\bin\Microsoft.AI.DependencyCollector.dll
@@ -83,3 +82,5 @@ E:\Projects\ASP.NET\XinNing_Web\XinNing_Web\obj\Debug\XinNing_Web.csprojResolveA
 E:\Projects\ASP.NET\XinNing_Web\XinNing_Web\obj\Debug\XinNing_Web.csproj.CoreCompileInputs.cache
 E:\Projects\ASP.NET\XinNing_Web\XinNing_Web\obj\Debug\XinNing_Web.dll
 E:\Projects\ASP.NET\XinNing_Web\XinNing_Web\obj\Debug\XinNing_Web.pdb
+E:\Projects\ASP.NET\XinNing_Web\XinNing_Web\obj\Debug\XinNing_Web.csproj.CopyComplete
+E:\Projects\ASP.NET\XinNing_Web\XinNing_Web\bin\AspNet.ScriptManager.bootstrap.dll
